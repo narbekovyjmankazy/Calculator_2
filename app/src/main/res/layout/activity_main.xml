@@ -8,6 +8,19 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:textColor="@color/white"
+        android:text="Result"
+        android:textSize="28sp"
+        android:layout_marginHorizontal="20dp"
+        android:backgroundTint="@color/orange"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="18dp"
+        android:visibility="gone"/>
+
     <FrameLayout
         android:paddingHorizontal="30dp"
         android:clipToPadding="false"
